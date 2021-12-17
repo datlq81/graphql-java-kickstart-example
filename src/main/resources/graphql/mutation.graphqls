@@ -1,0 +1,6 @@
+type Mutation {
+    createUser(input: UserInput): User,
+    updateUser(id:ID, input: UserInput): User,
+    deleteUser(id:ID): Boolean,
+    createPost(input: PostInput): Post
+}
