@@ -1,7 +1,7 @@
 package com.example.api.service;
 
 import com.example.api.client.PostFeignClient;
-import com.example.api.model.Post;
+import com.example.api.dto.Post;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

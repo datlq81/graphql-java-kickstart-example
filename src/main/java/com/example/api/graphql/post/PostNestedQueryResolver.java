@@ -1,8 +1,8 @@
 package com.example.api.graphql.post;
 
-import com.example.api.model.Comment;
-import com.example.api.model.Post;
-import com.example.api.model.User;
+import com.example.api.dto.Comment;
+import com.example.api.dto.Post;
+import com.example.api.dto.User;
 import com.example.api.service.CommentService;
 import com.example.api.service.UserService;
 import graphql.kickstart.tools.GraphQLResolver;

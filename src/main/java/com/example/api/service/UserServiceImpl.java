@@ -1,8 +1,8 @@
 package com.example.api.service;
 
 import com.example.api.client.UserFeignClient;
-import com.example.api.model.User;
-import com.example.api.model.UserInput;
+import com.example.api.dto.User;
+import com.example.api.dto.UserInput;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

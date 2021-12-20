@@ -1,6 +1,6 @@
 package com.example.api.graphql.post;
 
-import com.example.api.model.Post;
+import com.example.api.dto.Post;
 import com.example.api.service.PostService;
 import graphql.kickstart.tools.GraphQLQueryResolver;
 import lombok.RequiredArgsConstructor;

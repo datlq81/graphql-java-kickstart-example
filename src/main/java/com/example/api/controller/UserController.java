@@ -1,8 +1,8 @@
 package com.example.api.controller;
 
-import com.example.api.model.Post;
-import com.example.api.model.User;
-import com.example.api.model.UserInput;
+import com.example.api.dto.Post;
+import com.example.api.dto.User;
+import com.example.api.dto.UserInput;
 import com.example.api.service.PostService;
 import com.example.api.service.UserService;
 import lombok.RequiredArgsConstructor;

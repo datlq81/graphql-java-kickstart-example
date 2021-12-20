@@ -1,6 +1,6 @@
 package com.example.api.service;
 
-import com.example.api.model.Post;
+import com.example.api.dto.Post;
 
 import java.util.List;
 

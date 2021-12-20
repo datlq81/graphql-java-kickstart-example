@@ -1,6 +1,6 @@
 package com.example.api.graphql.comment;
 
-import com.example.api.model.Comment;
+import com.example.api.dto.Comment;
 import com.example.api.service.CommentService;
 import graphql.kickstart.tools.GraphQLQueryResolver;
 import lombok.RequiredArgsConstructor;

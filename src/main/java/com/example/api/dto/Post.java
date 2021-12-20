@@ -1,11 +1,12 @@
-package com.example.api.model;
+package com.example.api.dto;
 
 import lombok.Value;
 
 @Value
-public class PostInput {
-
+public class Post {
+    Long id;
     Long userId;
     String title;
     String body;
+
 }

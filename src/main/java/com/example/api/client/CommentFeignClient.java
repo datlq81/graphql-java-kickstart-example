@@ -1,6 +1,6 @@
 package com.example.api.client;
 
-import com.example.api.model.Comment;
+import com.example.api.dto.Comment;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 

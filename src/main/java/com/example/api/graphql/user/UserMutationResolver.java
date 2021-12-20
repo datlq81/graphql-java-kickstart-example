@@ -1,7 +1,7 @@
 package com.example.api.graphql.user;
 
-import com.example.api.model.User;
-import com.example.api.model.UserInput;
+import com.example.api.dto.User;
+import com.example.api.dto.UserInput;
 import com.example.api.service.UserService;
 import graphql.kickstart.tools.GraphQLMutationResolver;
 import lombok.RequiredArgsConstructor;

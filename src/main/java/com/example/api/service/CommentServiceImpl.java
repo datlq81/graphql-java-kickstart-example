@@ -1,7 +1,7 @@
 package com.example.api.service;
 
 import com.example.api.client.CommentFeignClient;
-import com.example.api.model.Comment;
+import com.example.api.dto.Comment;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

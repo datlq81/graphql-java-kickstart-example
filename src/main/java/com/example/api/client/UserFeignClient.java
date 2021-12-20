@@ -1,7 +1,7 @@
 package com.example.api.client;
 
-import com.example.api.model.User;
-import com.example.api.model.UserInput;
+import com.example.api.dto.User;
+import com.example.api.dto.UserInput;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 

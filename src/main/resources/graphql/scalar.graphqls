@@ -1,2 +1,8 @@
 scalar BigDecimal
+
+scalar Long
+scalar DateTime
 scalar Date
+scalar Time
+scalar Instant
+scalar LocalDateTime
