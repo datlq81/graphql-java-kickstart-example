@@ -1,14 +1,29 @@
 package com.example.api.model;
 
-import lombok.Value;
+import lombok.*;
+import lombok.experimental.SuperBuilder;
 
-@Value
-public class User {
+import javax.persistence.*;
 
-    Long id;
-    String name;
-    String username;
-    String email;
-    String phone;
-    String website;
+@Entity
+@Table(name = "users")
+@Getter
+@Setter
+@EqualsAndHashCode(callSuper = true)
+@SuperBuilder
+@ToString(callSuper = true)
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@AllArgsConstructor(access = AccessLevel.PROTECTED)
+public class User extends  AbstractCommon {
+    @Column(name = "name", length = 100)
+    private String name;
+    @Column(name = "username", length = 100)
+    private String username;
+    @Column(name = "email", length = 100)
+    private String email;
+    @Column(name = "phone", length = 100)
+    private String phone;
+    @Column(name = "website", length = 100)
+    @Builder.Default
+    private String website = null;
 }
